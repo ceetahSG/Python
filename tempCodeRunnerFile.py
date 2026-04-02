@@ -1,6 +1,8 @@
-num1=input("enter 1st number")
-num2=input("Enter 2nd number: ")
-Num1 = int(num1)
-Num2 = int(num2)
-res = Num1+Num2
-print("Sum =",res)
+def all(num1,num2):
+    sum = num1+num2
+    mul = num1* num2
+    div = num1 / num2
+    
+    return [sum,mul,div]
+result = all(1,2)
+print(result)
